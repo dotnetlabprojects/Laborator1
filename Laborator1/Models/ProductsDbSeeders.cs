@@ -11,7 +11,7 @@ namespace Laborator1.Models
         public static void Initialize(ProductsDbContext context)
         {
             context.Database.EnsureCreated();
-
+             
             // Look for any products.
             if (context.Products.Any())
             {
